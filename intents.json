@@ -1,0 +1,111 @@
+{"intents": [
+        {"tag": "courses",
+         "patterns": ["courses", "get courses", "list of courses", "go to uv", "list of courses from uv","uv", "academic courses", "college courses", "courses for this semester", "courses for this year"],
+         "responses": ["Courses"],
+         "context": [""],
+         "feature": ["just open the UV page as a first basic step, if the student is not signed it, make him sign in, i don't think there is a need for a second step, it's the most useful."]
+        },
+        {"tag": "schedule",
+         "patterns": ["schedule", "agenda", "weekly schedule", "gehol", "open gehol", "show schedule", "show agenda", "timetable", "weekly timetable", "agenda of week", "weekly schedule", "schedule of week",
+         "schedule of day", "agenda of day", "today agenda", "today schedule", "calendar"],
+         "responses": ["Schedule"],
+         "context": [""],
+         "feature": ["open gehol as a first step, a further step will be to print out the schedule for the day by html scanning"]
+        },
+        {"tag": "grades",
+         "patterns": ["grades", "scores", "evaluation", "monulb", "get grades", "open monulb", "pass or fail", "passed course", "failed course", "suceed", "credits", "failed", "get scores", "passed the semester",
+         "results of exams", "passed my exams", "evaluations", "get scores", "results", "get results"],
+         "responses": ["Grades"],
+         "context": [""],
+         "feature": ["Just open MonULB to the right page, and ask to sign in if he did not"]
+        },
+        {"tag": "general_information",
+         "patterns": ["general information", "more information", "wikipedia", "about", "location", "founder", "founded", "date founded", "history", "number of students", "rector",
+         "wikipedia page", "campus location", "campuses locations"],
+         "responses": ["GInformation"],
+         "context": [""],
+         "feature": ["first step, just a print a normal paragraphe, maybe also open the wikipedia page, second step, analyse in deeper meaning, and give more specific features, donc sous answer to the answer"]
+        },
+        {"tag": "studies_information",
+         "patterns": ["bachelor studies", "bachelor degree", "masters degree", "masters studies", "bachelor and masters", "program", "majors", "different majors", "information about bachelor studies",
+         "different bachelors studies", "different bachelors studies", "number of bachelors", "number of masters", "lost", "don't know what major to choose"],
+         "responses": ["SInformation"],
+         "context": [""],
+         "feature": ["one step, just give more informations, and maybe instead of opening a webpage, suggest the different webpages to visit"]
+        },
+        {"tag": "erasmus",
+         "patterns": ["erasmus", "abroad", "exchange", "coming from abroad to belgium", "conjoints masters", "conjoints", "go abroad", "study abroad", "erasmus abroad", "informations on abroad studies", "exchange programs", "exchange student", "student mobility",
+         "erasmus destinations"],
+         "responses": ["Erasmums"],
+         "context": [""],
+         "feature": ["one step, ouvrir une page d'informations, coming, or going w hek"]
+        },
+        {"tag": "applications",
+         "patterns": ["admissions", "applicant", "i want to apply", "apply", "get accepted", "papers to apply", "join", "date of application", "acceptance", "join"],
+         "responses": ["Applications"],
+         "context": [""],
+         "feature": ["one step, i would say give infos, and suggest links to apply"]
+        },
+        {"tag": "research",
+         "patterns": ["research", "phd", "thesis", "doctorat", "alumni", "nobel prices", "number of phds", "famous alumni", "famous graduates", "notable alumni", "phd programmes", "phd thesis", "fundings for thesis", "research prizes"],
+         "responses": ["Research"],
+         "context": ["research"],
+         "feature": ["one step, give infos about alumnis, and open a webpage"]
+        },
+        {"tag": "engagement",
+         "patterns": ["partners", "partners", "civis", "engagement", "relations with the outside", "international relations", "engagement", "outside relations", "external relations", "the network", "cooperations", "ngos",
+         "ngo", "cooperation", "none profits", "social impact"],
+         "responses": ["Engagement"],
+         "context": [""],
+         "feature": ["one step, open webgape"]
+        },
+        {"tag": "student_life",
+         "patterns": ["student life", "information about student life", "workout", "sport", "gym", "soccer", "campus plan", "culture section", "directions on campus", "lost on campus", "campus plan", "where building", "dorms", "life on campus", "solbosch", "plaine", "erasme"],
+         "responses": ["SLife"],
+         "context": ["student_life"],
+         "feature": ["here i would say, donc open webgape, mais cette partie support beaucoup d'autres sous parties, donc would be useful to have sous parties, there is a website with ulb maps, could be helpful"]
+        },
+        {"tag": "greeting",
+         "patterns": ["hi there", "hey", "hola", "hello", "bonjour"],
+         "responses": ["Greeting"],
+         "context": [""],
+         "feature": [""]
+        },
+        {"tag": "howudoin",
+         "patterns": ["how are you", "how feeling"],
+         "responses": ["Howudoin"],
+         "context": [""],
+         "feature": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "okay"],
+         "responses": ["GoodBye"],
+         "context": [""],
+         "feature": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "great", "okay"],
+         "responses": ["Thanks"],
+         "context": [""],
+         "feature": [""]
+       },
+       {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["NoAnswer"],
+        "context": [""],
+        "feature": [""]
+       },
+       {"tag": "options",
+        "patterns": ["How help ", "What do", "What help provide", "How be helpful", "What support is offered"],
+        "responses": ["Options"],
+        "context": [""],
+        "feature": [""]
+      },
+      {"tag": "food",
+       "patterns": ["restaurant", "get food", "eat", "where eat", "what types of food", "food type", "food kind", "hungry", "want to eat"],
+       "responses": ["Food"],
+       "context": [""],
+       "feature": ["List of restauraents and food"]
+      }
+   ]
+}
